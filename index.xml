@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Quartz v4</title>
+      <link>https://page.2401.xyz/quartz</link>
+      <description>最近的10条笔记 on Quartz v4</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>01. 专属标注与元数据</title>
+    <link>https://page.2401.xyz/quartz/01-annotations</link>
+    <guid>https://page.2401.xyz/quartz/01-annotations</guid>
+    <description><![CDATA[ 实测 Quartz v4 (4.5.2) 的 Obsidian Flavored Markdown 可折叠标注 (> [!note]+/-)、==高亮标记==、双向 [[Wikilinks]] 与 GFM Alerts 零改造直通。 ]]></description>
+    <pubDate>Tue, 24 Nov 2026 08:06:15 GMT</pubDate>
+  </item><item>
+    <title>02. 流程图与时序图</title>
+    <link>https://page.2401.xyz/quartz/02-diagrams</link>
+    <guid>https://page.2401.xyz/quartz/02-diagrams</guid>
+    <description><![CDATA[ 实测 Quartz v4 (4.5.2) 内置 Mermaid 拖拽缩放弹窗与本地化 mermaid@12.3.0 ESM 按需渲染。 ]]></description>
+    <pubDate>Tue, 24 Nov 2026 08:06:15 GMT</pubDate>
+  </item><item>
+    <title>03. 数学公式排版</title>
+    <link>https://page.2401.xyz/quartz/03-math</link>
+    <guid>https://page.2401.xyz/quartz/03-math</guid>
+    <description><![CDATA[ 实测 Quartz v4 (4.5.2) 基于 remark-math + rehype-katex + 本地化 katex@0.19.1 的构建期数学公式排版表现。 ]]></description>
+    <pubDate>Tue, 24 Nov 2026 08:06:15 GMT</pubDate>
+  </item><item>
+    <title>04. 目录结构与路由取舍</title>
+    <link>https://page.2401.xyz/quartz/04-directory/</link>
+    <guid>https://page.2401.xyz/quartz/04-directory/</guid>
+    <description><![CDATA[ 实测 Quartz v4 的 content/ 知识库隔离、FolderPage 目录笔记 (index.md)、Explorer 自定义排序与双向 [[Wikilinks]] 路由机制。 ]]></description>
+    <pubDate>Tue, 24 Nov 2026 08:06:15 GMT</pubDate>
+  </item><item>
+    <title>嵌套子页 A：排序前缀与 URL 纯净度权衡</title>
+    <link>https://page.2401.xyz/quartz/04-directory/nested/01-order-and-url</link>
+    <guid>https://page.2401.xyz/quartz/04-directory/nested/01-order-and-url</guid>
+    <description><![CDATA[ 嵌套子页 A：排序前缀与 URL 纯净度权衡 在 content/04-directory/nested/ 中，文件名保留 01-order-and-url.md 以确保在 Obsidian 文件树、VS Code 与 Git 中按阅读顺序排列。Quartz v4 将文件路径直接映射为无 .html 后缀的 Clean URL（/quartz/04-directory/nested/01-order-and-url），并通过 markdownLinkResolution: &quot;shortest&quot; 允许任意笔记仅凭唯一文件名 [[01-order-and-url]] 直接建立双... ]]></description>
+    <pubDate>Tue, 24 Nov 2026 08:06:15 GMT</pubDate>
+  </item><item>
+    <title>嵌套子页 B：多级子目录与侧边栏同步机制</title>
+    <link>https://page.2401.xyz/quartz/04-directory/nested/02-sidebar-sync</link>
+    <guid>https://page.2401.xyz/quartz/04-directory/nested/02-sidebar-sync</guid>
+    <description><![CDATA[ 嵌套子页 B：多级子目录与侧边栏同步机制 在 Quartz v4 中，Plugin.ContentIndex() 在构建期扫描 content/ 生成 static/contentIndex.json，左侧 Explorer 组件据此自动构建完整的多级目录树，彻底杜绝了手写侧边栏遗漏导致的“孤岛页”。由于 Quartz 不引入 _category_.json 或 _meta.json 等目录元数据文件，若需将物理子目录 nested/ 显示为中文名称，需在 quartz.layout.ts 的 Explorer({ mapFn }) 中统一映射（注意 mapFn 会被序列化至前端执行，不可引用... ]]></description>
+    <pubDate>Tue, 24 Nov 2026 08:06:15 GMT</pubDate>
+  </item><item>
+    <title>05. 高阶代码块与语法高亮</title>
+    <link>https://page.2401.xyz/quartz/05-code-blocks</link>
+    <guid>https://page.2401.xyz/quartz/05-code-blocks</guid>
+    <description><![CDATA[ 实测 Quartz v4 (4.5.2) 内置 Plugin.SyntaxHighlighting (rehype-pretty-code + Shiki) 的双主题 CSS 变量、title 标题栏、{3,7-9} 行高亮、/word/ 词级高亮与 OFM 折叠组。 ]]></description>
+    <pubDate>Tue, 24 Nov 2026 08:06:15 GMT</pubDate>
+  </item><item>
+    <title>00. Quartz v4 数字花园基准总览</title>
+    <link>https://page.2401.xyz/quartz/</link>
+    <guid>https://page.2401.xyz/quartz/</guid>
+    <description><![CDATA[ 锁定版本 @jackyzha0/quartz@4.5.2 · Obsidian Flavored Markdown + 双向链接 [[Wikilinks]] + 交互式图谱 + 本地化 KaTeX / Mermaid 12 实测 ]]></description>
+    <pubDate>Tue, 24 Nov 2026 08:06:15 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
