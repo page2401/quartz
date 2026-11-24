@@ -22,6 +22,7 @@ tags:
 | [[02-diagrams\|02. 流程图与时序图]] | 流程图与时序图 | 内置 Mermaid 全屏拖拽缩放容器（`DiagramPanZoom`）与深浅色联动，本基准站将上游 CDN 动态导入改造为本地 `mermaid@12.3.0` ESM 按需加载 |
 | [[03-math\|03. 数学公式排版]] | 数学公式排版 | `remark-math@6.0.0` + `rehype-katex@7.0.1` 构建期预渲染 HTML，配合本地化 `katex@0.19.1` 字体与 `copy-tex` 复制还原 LaTeX 源码 |
 | [[04-directory/index\|04. 目录结构与路由取舍]] | 目录结构与 Vault 路由 | `content/` 独立知识库隔离、`FolderPage` 目录索引页、同时兼容相对路径 `.md` 与最短路径 `[[Wikilinks]]`，通过 `Explorer` 自定义 `sortFn` 修正文件夹置顶问题 |
+| [[05-code-blocks\|05. 高阶代码块与语法高亮]] | 高阶代码块与 Shiki 管线 | 内置 `Plugin.SyntaxHighlighting`（`rehype-pretty-code@0.14.1` + `shiki@1.26.2`），零运行时 JS 支持 `title="..."`、`showLineNumbers`、`{3,7-9}` 行高亮与 `/word/` 词级聚焦 |
 
 ## 子模块精确锁定版本档案
 
